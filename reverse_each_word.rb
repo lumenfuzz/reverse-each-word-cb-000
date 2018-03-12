@@ -5,5 +5,5 @@ def reverse_each_word(string)
     new_string << element.reverse
     new_string << " "
   end
-  new_string
+  new_string.chop
 end
